@@ -37,8 +37,8 @@ export default function BasicTabs() {
   };
   return (
     <Container component="main" maxWidth="sm" sx={{ mb: 4 }} >
-      <Paper variant="outlined" sx={{ my: { xs: 3, md: 6 }, p: { xs: 2, md: 3 },backgroundColor:'#121212' }}>
-        <Box sx={{ borderBottom: 1, borderColor: 'divider', backgroundColor:'#121212',color:'white' }}>
+      <Paper variant="outlined" sx={{ my: { xs: 3, md: 6 }, p: { xs: 2, md: 3 },backgroundColor:'#383434' }}>
+        <Box sx={{ borderBottom: 1, borderColor: 'divider', backgroundColor:'#383434',color:'white' }}>
           <Tabs value={value} onChange={handleChange}
           // inkBarStyle={{background: 'blue'}} 
           TabIndicatorProps={{style: {background:'white'}}}
