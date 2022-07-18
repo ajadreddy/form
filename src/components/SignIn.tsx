@@ -42,7 +42,7 @@ export default function SignIn() {
             
           }}
         >
-          <Avatar sx={{ m: 1, bgcolor: '' }}>
+          <Avatar sx={{ m: 1, bgcolor: 'white' }}>
             <LockOutlinedIcon />
           </Avatar>
           <Typography component="h1" variant="h5"
@@ -51,6 +51,15 @@ export default function SignIn() {
           </Typography>
           <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
             <TextField
+            // sx={{
+            //   "& .MuiInputLabel-root": {color: 'white'},
+            //   // "& .MuiOutlinedInput-root": {
+            //   //   "& > fieldset": { borderColor: "black" },//styles the label
+            //   "& .MuiOutlinedInput-root:hover": {
+            //     "& > fieldset": { borderColor: "black" },
+            //   },borderColor:"black"
+              
+            // }}
               margin="normal"
               required
               fullWidth
@@ -58,7 +67,7 @@ export default function SignIn() {
               label="Email Address"
               name="email"
               autoComplete="email"
-              autoFocus
+              // autoFocus
             />
             <TextField
             // style={{backgroundColor: "#121212",color:'white'}}

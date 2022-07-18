@@ -41,7 +41,7 @@ export default function SignUp() {
             alignItems: 'center',
           }}
         >
-          <Avatar sx={{ m: 1, bgcolor: '' }}>
+          <Avatar sx={{ m: 1, bgcolor: 'white' }}>
             <LockOutlinedIcon />
           </Avatar>
           <Typography component="h1" variant="h5">
@@ -57,7 +57,7 @@ export default function SignUp() {
                   fullWidth
                   id="firstName"
                   label="First Name"
-                  autoFocus
+                  // autoFocus
                 />
               </Grid>
               <Grid item xs={12} sm={6}>
